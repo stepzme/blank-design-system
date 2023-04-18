@@ -1,5 +1,44 @@
 {
-  "global": {},
+  "global": {
+    "primary": {
+      "100": {
+        "value": "#ddd6fa",
+        "type": "color"
+      },
+      "200": {
+        "value": "#bcadf6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9a85f1",
+        "type": "color"
+      },
+      "400": {
+        "value": "#795ced",
+        "type": "color"
+      },
+      "500": {
+        "value": "#5733e8",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4629ba",
+        "type": "color"
+      },
+      "700": {
+        "value": "#341f8b",
+        "type": "color"
+      },
+      "800": {
+        "value": "#23145d",
+        "type": "color"
+      },
+      "900": {
+        "value": "#110a2e",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
