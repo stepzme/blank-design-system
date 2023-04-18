@@ -1,54 +1,79 @@
 {
-  "Grayscale": {
-    "0": {
-      "value": "#ffffff",
-      "type": "color"
+  "Global": {
+    "Grayscale": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color"
+      }
     },
-    "1000": {
-      "value": "#000000",
-      "type": "color"
+    "Primary": {
+      "50": {
+        "value": "#f1edff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#ddd6fa",
+        "type": "color"
+      },
+      "200": {
+        "value": "#bcaef6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9a85f1",
+        "type": "color"
+      },
+      "400": {
+        "value": "#795cec",
+        "type": "color"
+      },
+      "500": {
+        "value": "#5733e8",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4629b9",
+        "type": "color"
+      },
+      "700": {
+        "value": "#341f8b",
+        "type": "color"
+      },
+      "800": {
+        "value": "#23155d",
+        "type": "color"
+      },
+      "900": {
+        "value": "#110a2e",
+        "type": "color"
+      }
     }
   },
-  "Primary": {
-    "50": {
-      "value": "#f1edff",
-      "type": "color"
-    },
-    "100": {
-      "value": "#ddd6fa",
-      "type": "color"
-    },
-    "200": {
-      "value": "#bcaef6",
-      "type": "color"
-    },
-    "300": {
-      "value": "#9a85f1",
-      "type": "color"
-    },
-    "400": {
-      "value": "#795cec",
-      "type": "color"
-    },
-    "500": {
-      "value": "#5733e8",
-      "type": "color"
-    },
-    "600": {
-      "value": "#4629b9",
-      "type": "color"
-    },
-    "700": {
-      "value": "#341f8b",
-      "type": "color"
-    },
-    "800": {
-      "value": "#23155d",
-      "type": "color"
-    },
-    "900": {
-      "value": "#110a2e",
-      "type": "color"
+  "Light": {
+    "Controls": {
+      "primaryDefault": {
+        "value": "{Primary.500}",
+        "type": "color"
+      },
+      "primaryHover": {
+        "value": "{Primary.600}",
+        "type": "color"
+      },
+      "primaryActive": {
+        "value": "{Primary.700}",
+        "type": "color"
+      }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Global",
+      "Light"
+    ]
   }
 }
