@@ -18,9 +18,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run token-transformer
-        run: npx token-transformer sd-input/src/fig-tokens-output.json sd-input/src/sd-input.json --resolveReferences false
-
       - name: Run style-dictionary
         run: npx style-dictionary build --config sd.config.cjs
 
