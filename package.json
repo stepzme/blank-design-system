@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/everest.blank-lgmj0q4h",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve zxNUzMXzgfb6WhH02QLD --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
